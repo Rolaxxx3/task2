@@ -5,6 +5,11 @@
 yarn install
 ```
 
+## Api link
+```
+https://currencyapi-net.p.rapidapi.com
+```
+
 ### Compiles and hot-reloads for development
 ```
 yarn serve
