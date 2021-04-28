@@ -1,0 +1,35 @@
+.app {
+  background-color: $app-background-color;
+  min-height: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.app__text,
+.app__text--bold {
+  color: $app-text-color;
+  line-height: 1.5em;
+}
+
+.app__text--bold {
+  font-weight: bold;
+}
+
+.app__label {
+  margin: auto 24px auto 0;
+  color: $app-secondary-color;
+  font-size: 20px;
+}
+
+.app__title {
+  color: $app-secondary-color;
+  font-size: 28px;
+  letter-spacing: 0.05em;
+}
+
+
+.app__error-msg {
+  color: $app-error-color;
+  font-size: 24px;
+}
